@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print if number is positive,zero or negative
+ * main - print 0123456789
  *
  * Description:using the main function
  * this program prints "programming is positive,zero,or negative
