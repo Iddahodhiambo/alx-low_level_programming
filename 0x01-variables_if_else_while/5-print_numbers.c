@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	(i = 0 ; i < 10 ; i++)
+	(i = 0 ; i < 10 ; i++);
 	{
 		printf("%i", i);
 	}
