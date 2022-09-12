@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
  * main - print if the number is positive,negative,or zero
  *
@@ -16,6 +16,6 @@ int main(void)
 			putchar(ch);
 		}
 	}
-	putchar(*\n*);
+	putchar( *\n*);
 	return (0);
 }
