@@ -10,8 +10,8 @@ int main(void)
 	int n = '0';
 	while (n <= '9')
 	{
-		putcha(n);
+		putchar(n);
 		n++;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
