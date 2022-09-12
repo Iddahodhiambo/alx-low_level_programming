@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - print lowercase a-z
- *
  * Description:using the main function
  * Return (0)
  */
