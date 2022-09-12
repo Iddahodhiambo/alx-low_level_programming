@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints hexadecimal base 0123456789abcdef,using putchar\
+ * main - prints hexadecimal base 0123456789abcdef,using putchar
+ * Description: using the main function
+ * 
  * Return: always 0 (success)
  */
-
 int main(void)
 {
 	char c;
