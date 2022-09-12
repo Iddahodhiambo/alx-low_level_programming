@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - print 0123456789
+ * main - printif the number is positive,negative,or zero
+ *
  * Description:using the main function
- * return: 0
+ * this program prints "Programming is positive,negative, or zero
+ * Return: 0
  */
 int main(void)
 {
