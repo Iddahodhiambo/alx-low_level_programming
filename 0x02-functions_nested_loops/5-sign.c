@@ -1,6 +1,6 @@
 # include "main.h"
 /**
- * print _sign - function to check the sign of a number
+ * print_sign - function to check the sign of a number
  * @n:int to be used for the argument of the function
  * Return: 0
  */
