@@ -1,7 +1,7 @@
 # include "main.h"
 /**
- * _isalpah - function to check if character is lowercase or uppercase
- * @c - int to be used for the argument of the function
+ * _isalpha - function to check if character c is lowercase or uppercase
+ * @c: int to be used for the argument of the function
  * Return: 0
  */
 int _isalpha(int c)
