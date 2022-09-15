@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	int 1, res;
+	int i, res;
 
 	for (i = 0; 1 < 1024; i++)
 		if (i % 3 == 0 || i % 5 == 0)
 			res += 1;
 	printf("%d\n", res);
-	return (0)
+	return (0);
 }
