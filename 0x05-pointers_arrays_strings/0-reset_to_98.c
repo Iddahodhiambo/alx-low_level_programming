@@ -2,7 +2,7 @@
 
 /**
  * reset_t0_98 - resets value of given integer to 98
- * @n parameter
+ * @n: parameter
  * Return: nothing
  */
 
