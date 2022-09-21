@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include "main.h"
-
+#include "main.h"   
 /**
  * print_most_numbers - prints numbers except 2 and 4
- *
- * Return: returns nothing
+ * Return: always 0
  */
 
 void print_most_numbers(void)
