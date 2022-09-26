@@ -5,28 +5,29 @@
  * @haystack: string
  * @needle: substring to find
  *
- * Return: dest
+ * Return: to string with result of search
  */
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
-	int j;
-	int k;
-
-	for (i = 0; haystack[i]; i++)
+	unsigned int i = 0, j = 0;
+	
+	while (haystack[i])
 	{
-		for ((k = i; j = 0; needle[j] != '\0'); j++, k++)
+		while (needle[j] && (haystack[i] == needle[0]))
 		{
-			if (haystack[k] != needle[j] || haystack[k] == '\0')
-			{
+			if (haystack[i + j] == needle[j])
+				j++;
+			else
 				break;
-			}
 		}
-		if (needle[j] == 0)
+		if (needle[j])
 		{
-			return (haystack + 1);
+			i++;
+			j = 0;
 		}
+		else
+			return (haystack + i);
 	}
 	return (0);
 }
