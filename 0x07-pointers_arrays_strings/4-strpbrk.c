@@ -7,7 +7,7 @@
  *
  * Return: pointer to bytes in s that matches or NULL if no match
  */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned integer i, j;
 
