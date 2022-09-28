@@ -5,7 +5,7 @@
  * @n: the max factorial
  * Return: factorial of number n
  */
-int factorial(int n);
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
